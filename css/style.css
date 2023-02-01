@@ -445,7 +445,7 @@ ol {
 	float: left;
 	display: inline-block;
 	background: #121212;
-	padding: 20px 30px;
+	padding: 5px 5px 5px;
 	max-width: 20%;
 	max-height: 20%;
 }
@@ -1814,7 +1814,7 @@ ol {
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.logo-area {
-		padding: 20px 40px 30px;
+		padding: 5px 5px 5px;
 	}
 	.slide-content {
 		margin-left: 170px;
@@ -1925,6 +1925,7 @@ ol {
 	h1,
 	.sp-title {
 		font-size: 45px;
+		margin: 20px;
 	}
 	.page-header-section .header-title {
 		font-size: 55px;
@@ -2068,7 +2069,7 @@ ol {
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
 	.logo-area {
-		padding: 20px 30px 30px;
+		padding: 5px 5px 5px;
 	}
 	.header-area {
 		background: #121212;
@@ -2107,4 +2108,44 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+}
+
+@media only screen and (max-width: 767px) {
+	h1,
+	.text-son {
+		
+		margin: 20px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+	h1,
+	#us {
+		text-align: center;
+		justify-content: center;
+		padding: 20px
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	h1,
+	.ts-item {
+		text-align: center;
+		justify-content: center;
+		padding: 20px
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	h1,
+	#palo, #pol {
+		text-align: center;
+		justify-content: center;
+		padding: 20px
+	}
+
 }

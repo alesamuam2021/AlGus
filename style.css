@@ -90,6 +90,8 @@ ol {
 .sp-title {
 	font-size: 60px;
 	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .sp-title span {
@@ -442,22 +444,13 @@ ol {
 }
 
 .logo-area {
-	float: left;
+	display:flex ;
 	display: inline-block;
-	background: #121212;
-	padding: 20px 60px 30px;
+	background: #121212
+	
 }
 
-.phone-number {
-	float: right;
-	display: inline-block;
-	padding: 5px 10px;
-	background: #baff00;
-	font-weight: 700;
-	letter-spacing: 1px;
-	margin-top: 30px;
-	margin-right: 50px;
-}
+
 
 .nav-switch {
 	display: none;
@@ -928,7 +921,7 @@ ol {
 }
 
 .projects-slider .single-project .project-content h2 {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-weight: 500;
 	position: relative;
 	top: 20px;
@@ -1817,7 +1810,7 @@ ol {
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.logo-area {
-		padding: 20px 40px 30px;
+	
 	}
 	.slide-content {
 		margin-left: 170px;
@@ -1928,6 +1921,7 @@ ol {
 	h1,
 	.sp-title {
 		font-size: 45px;
+		
 	}
 	.page-header-section .header-title {
 		font-size: 55px;
@@ -2071,7 +2065,7 @@ ol {
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
 	.logo-area {
-		padding: 20px 30px 30px;
+		
 	}
 	.header-area {
 		background: #121212;
@@ -2110,6 +2104,9 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+
+
+
 }
 
 
